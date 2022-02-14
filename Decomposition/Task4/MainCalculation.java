@@ -7,6 +7,7 @@ public class MainCalculation {
         double abscissa = receiver.receiveCoordinate("Enter x coordinate ");
         double ordinate = receiver.receiveCoordinate("Enter y coordinate ");
         boolean result = AreaBelonging.checkAreaBelonging(abscissa, ordinate);
+
         BelongingOutputting.outputOfResult(result, abscissa, ordinate);
 
     }

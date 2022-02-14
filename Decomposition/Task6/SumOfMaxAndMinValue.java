@@ -1,6 +1,6 @@
 package by.epam.Decomposition.Task6;
 
-public class SumOfMaxAndMinValues {
+public class SumOfMaxAndMinValue {
 
     public static double calculateMinValue(double number1,
                                            double number2,

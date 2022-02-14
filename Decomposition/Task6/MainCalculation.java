@@ -8,11 +8,11 @@ public class MainCalculation {
         double secondNumber = numberReceiver.receiveNumber("Enter the second number ");
         double thirdNumber = numberReceiver.receiveNumber("Enter the third number ");
 
-        double minValue = SumOfMaxAndMinValues.calculateMinValue(firstNumber,
+        double minValue = SumOfMaxAndMinValue.calculateMinValue(firstNumber,
                 secondNumber, thirdNumber);
-        double maxValue = SumOfMaxAndMinValues.calculateMaxValue(firstNumber,
+        double maxValue = SumOfMaxAndMinValue.calculateMaxValue(firstNumber,
                 secondNumber, thirdNumber);
-        double sumOfMinAndMax = SumOfMaxAndMinValues.calculateSumOfMaxAndMinValues(
+        double sumOfMinAndMax = SumOfMaxAndMinValue.calculateSumOfMaxAndMinValues(
                 minValue, maxValue);
 
         SumOutputting.outputMinAndMaxValues(minValue, maxValue);

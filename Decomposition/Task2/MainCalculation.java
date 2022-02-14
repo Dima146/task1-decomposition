@@ -10,6 +10,7 @@ public class MainCalculation {
 
         double resultOfExpression = Expression.implementExpression(firstNumber,
                 secondNumber, thirdNumber);
+
         ResultOutputting.output(resultOfExpression);
     }
 

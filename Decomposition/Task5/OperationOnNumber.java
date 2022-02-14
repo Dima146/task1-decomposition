@@ -1,6 +1,6 @@
 package by.epam.Decomposition.Task5;
 
-public class OperationsOnNumbers {
+public class OperationOnNumber {
 
     public  static double operateOnNumbers(double number) {
         if (number >= 0) {

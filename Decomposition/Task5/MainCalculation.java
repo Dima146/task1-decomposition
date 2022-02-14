@@ -9,11 +9,11 @@ public class MainCalculation {
         double thirdNumber = numberReceiver.receiveNumber("Enter the third number ");
 
         NewValuesOutputting.outputNewValues(
-                OperationsOnNumbers.operateOnNumbers(firstNumber));
+                OperationOnNumber.operateOnNumbers(firstNumber));
         NewValuesOutputting.outputNewValues(
-                OperationsOnNumbers.operateOnNumbers(secondNumber));
+                OperationOnNumber.operateOnNumbers(secondNumber));
         NewValuesOutputting.outputNewValues(
-                OperationsOnNumbers.operateOnNumbers(thirdNumber));
+                OperationOnNumber.operateOnNumbers(thirdNumber));
 
     }
 }
